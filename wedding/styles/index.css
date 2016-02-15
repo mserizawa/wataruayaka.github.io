@@ -138,3 +138,10 @@
   -webkit-border-radius: 100px;
           border-radius: 100px;
 }
+
+@media(max-width: 800px) {
+  .mdl-data-table tbody tr:hover {
+    background-color: inherit;
+  }
+}
+
