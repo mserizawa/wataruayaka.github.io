@@ -99,6 +99,12 @@
   height: 250px;
 }
 
+@media(min-width: 800px) {
+  #access-tab .mdl-data-table .navigation-row {
+    display: none;
+  }
+}
+
 #access-tab #navitime-button {
   margin: 10px 0;
   background: #035500;
@@ -144,4 +150,3 @@
     background-color: inherit;
   }
 }
-
